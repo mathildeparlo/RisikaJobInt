@@ -81,6 +81,3 @@ for i in goodGroups:
     for j in i:
         string += j[0] + " "
     print(string)
-    
-
-        
