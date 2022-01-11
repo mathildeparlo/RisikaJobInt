@@ -64,7 +64,7 @@ def optimizedProjectGroups(data, skills):
 # Test matching handout example
 skills = np.array(['a', 'b', 'd', 'e', 'i', 'l', 'n', 'o', 'r', 's', 't']) 
                
-goodGroups = optimizedProjectGroups('emp_skills_letters.csv', skills)
+goodGroups = optimizedProjectGroups('emp_skills.csv', skills)
 
 # prettyfication
 print('Desired skills:',)
